@@ -109,32 +109,43 @@ h1,h2,h3,h4,h5,h6{
     color:#fffffc;
     justify-content: center;
     margin:50px;
-    padding:50px;
+    padding:70px;
+    
     
 }
 .content-box1{
     background:#023E8A;
-    border:1px solid #fffffc;
-    height:60vh;
+    border:2px solid #fffffc;
+    width: 419px;
     flex:1;
 
     
 }
+.words{
+    margin:10px;
+    padding:0,20px,0, 0;
+    
+
+}
 .head{
     font-size:36px;
-    margin:10px;
-    padding:0,20px,0, 0; 
+    
+}
+.we{
+    font-size:13px;
+    
 }
 .two{
     font-size: 2px;
     color: #466870;
-    margin:10px;
-    padding:0,20px,0, 0; 
+    
 }
 img{
     height:60vh;
-    border:1px solid #fffffc;
+    border:2px solid #fffffc;
+    width: 419px;
     flex:1
+  
     
     
 }
