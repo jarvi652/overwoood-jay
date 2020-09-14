@@ -1,0 +1,247 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    background:linear-gradient(90.05deg, #1D7F96 0.63%, rgba(29, 127, 150, 0.58) 52.78%, rgba(33, 130, 153, 0.54) 95.67%), #1D7F96; 
+    
+    background-size: cover;
+}
+section{
+    background: linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #CAF0F8;
+    background-size: cover;
+}
+nav{
+    margin:20px;
+    padding:15px;
+    padding-top:5px;
+    margin-top:5px;
+}
+a{
+    color:#023E8A;
+    align-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+span{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color:#023E8A;
+}
+.ov{
+    color: #48CAE4;
+}
+
+button{
+    background-color:#023E8A;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 800;
+    height: 7vh;
+    border-radius:5px;
+    color: #fffffc;
+    width: 15%;
+    border: 1px solid #fffffc;  
+    align-self: start;
+}
+.btn1{
+    background-color: #48CAE4;
+    width:13%;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:800;
+    font-family: 'Raleway', sans-serif;
+}
+.container-a{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    margin:20px;
+    padding:15px;
+    width:45%;
+    
+
+}
+.main{
+    font-size: 55px;
+    word-wrap: normal;
+    
+    
+}
+.two{
+    color:#060202;
+    font-weight: 600px;
+}
+.btn3{
+    width:30%;
+    margin-top:20px;
+}
+.container-b{
+    display: flex;
+    text-align: left;
+    color:#060202;
+    
+}
+.content-box{
+    background-color:#fffffc;
+    border-radius:5px;
+    margin:20px;
+    padding:20px;
+    padding-top:10px;
+    height:19vh;
+    width:20%;
+}
+#box{
+    height: 5vh;
+}
+#p{
+    font-size: 12px;
+}
+.container-c{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color:#fffffc;
+    justify-content: center;
+    margin:50px;
+    padding:50px;
+    
+}
+.content-box1{
+    background:#023E8A;
+    border:1px solid #fffffc;
+    height:60vh;
+    flex:1;
+
+    
+}
+.head{
+    font-size:36px;
+    margin:10px;
+    padding:0,20px,0, 0; 
+}
+.two{
+    font-size: 2px;
+    color: #466870;
+    margin:10px;
+    padding:0,20px,0, 0; 
+}
+img{
+    height:60vh;
+    border:1px solid #fffffc;
+    flex:1
+    
+    
+}
+.container-d{
+    display:flex;
+    flex-direction: row;
+    
+}
+@media  screen and (max-width:1024px){
+    main{
+        background:linear-gradient(180deg, #1D7F96 0%, rgba(99, 180, 199, 0.79875) 47.92%, rgba(29, 127, 150, 0.58) 100%), #CAF0F8;
+       
+    }
+    nav{
+        margin:20px;
+        padding:15px;
+        padding-top:5px;
+        margin-top:5px;
+    }
+    a{
+        color:#023E8A;
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+        padding-left: 30px;
+    }
+    span{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 42px;
+        color:#023E8A;
+    }
+    .ov{
+        color: #48CAE4;
+    }
+    
+    button{
+        background-color:#023E8A;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 15px;
+        height: 6vh;
+        border-radius:5px;
+        color: #fffffc;
+        width: 25%;
+        border: 1px solid #fffffc; 
+        padding-top:10px;
+        margin-top:10px;
+        margin:20px;
+        padding:20px;
+       
+    }
+    .btn1{
+        background-color: #48CAE4;
+        width:20%;
+        
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-weight:800;
+        font-family: 'Raleway', sans-serif;
+    }
+    .container-a{
+        display:flex;
+        flex-direction: column;
+        text-align: justify;
+        margin:20px;
+        padding:15px;
+        font-size: 20px;
+        width:60%;
+        
+        
+    
+    }
+    .main{
+        font-size: 60px;
+        word-wrap: normal;
+        
+        
+    }
+    .two{
+        color:#060202;
+        font-weight: 600px;
+    }
+    .btn3{
+        width:30%;
+        margin-top:20px;
+    }
+    .container-b{
+        display: flex;
+        text-align: left;
+        color:#060202;
+        
+    }
+    .content-box{
+        background-color:#fffffc;
+        border-radius:5px;
+        margin:20px;
+        padding:20px;
+        padding-top:10px;
+        height:20vh;
+        width:30%;
+    }
+    #box{
+        height: 6vh;
+
+} 
+@media  screen and (max-width:480px){
+
+} 
