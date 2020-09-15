@@ -5,36 +5,35 @@
     font-family: 'Raleway', sans-serif;
 }
 main{
-    background: linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #CAF0F8;
-    flex-flow: column;
+    background:#FFB5A7;
 
 }
 .home{
-    background:linear-gradient(90.05deg, #1D7F96 0.63%, rgba(29, 127, 150, 0.58) 52.78%, rgba(33, 130, 153, 0.54) 95.67%), #1D7F96;  
-    height:100vh;
+    background:#FFB5A7;
     
 }
-section{
-    background: linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #CAF0F8;
-    height:100vh;
+.one{
+    background:#F9DCC4;
 
     
 }
 .three{
-    background: linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #CAF0F8;
+    background: #FFB5A7;
     background-size: cover;
 }
 .four{
-    background:linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #C48CAE;
+    background:#FDFCDC;
 }
+
 nav{
+    color: #466870;
     margin:20px;
     padding:15px;
     padding-top:5px;
     margin-top:5px;
 }
 a{
-    color:#023E8A;
+    color:#0081A7;
     align-content: center;
     font-size: 18px;
     font-weight: bold;
@@ -44,26 +43,26 @@ span{
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-    color:#023E8A;
+    color:#466870;
 }
 .ov{
-    color: #48CAE4;
+    color: #0081A7;
 }
 
 button{
-    background-color:#023E8A;
+    background-color:#FED9B7;
     cursor: pointer;
     font-style: normal;
     font-weight: 800;
     height: 7vh;
     border-radius:5px;
-    color: #fffffc;
+    color: #466870;
     width: 15%;
-    border: 1px solid #fffffc;  
+    border: 1px solid #466870;  
     align-self: start;
 }
 .btn1{
-    background-color: #48CAE4;
+    background-color: #FED9B7;
     width:13%;
     
 }
@@ -88,7 +87,7 @@ h1,h2,h3,h4,h5,h6{
     
 }
 .two{
-    color:#060202;
+    color:#466870;
     font-weight: 600px;
 }
 .btn3{
@@ -98,11 +97,11 @@ h1,h2,h3,h4,h5,h6{
 .container-b{
     display: flex;
     text-align: left;
-    color:#060202;
+    color:#466870;
     
 }
 .content-box{
-    background-color:#fffffc;
+    background-color:#FED9B7;
     border-radius:5px;
     margin:20px;
     padding:20px;
@@ -120,30 +119,31 @@ h1,h2,h3,h4,h5,h6{
     display:flex;
     flex-direction: row;
     height:85vh;
-    color:#fffffc;
+    color: #466870;
     margin:90px;
     align-items: center;
     justify-content: center;
+    flex:50%;
     
     
    
 }
 .content-box1{
-    background-color: #023E8A;
+    background-color: #FED9B7;
     border: 2px solid #fffffc;
-    height:50.5vh;
-    flex:1;
+    padding-left: 10px;
     justify-content: space-around;
     
     
 
 }
+
 .container-c img{
-    height:50vh;
+    height:70vh;
     border-top: 2px solid #fffffc;
     border-left: 2px solid #fffffc;
     border-bottom:2px solid #fffffc;
-    flex:50%;
+    flex:20%;
     
 }
 .head{
@@ -152,6 +152,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .we{
     font-size:13px;
+    padding:30px;
+    padding-left: 10px;
     
 }
 .small{
@@ -161,8 +163,8 @@ h1,h2,h3,h4,h5,h6{
     
 }
 .words{
-
-    flex:50%;
+    word-spacing: 1rem;
+    
 }
 .container-3 h3{
     font-size:18px; 
@@ -203,8 +205,8 @@ h1,h2,h3,h4,h5,h6{
       
 }
 .content-box2{
-    background-color: #023E8A;
-    border: 2px solid #fffffc;
+    background-color:#FFB5A7 ;
+    border: 1px solid;
     color: white;
     height:30vh;
     border-radius:5px;
@@ -214,15 +216,15 @@ h1,h2,h3,h4,h5,h6{
 }
 .content-box3{
     background-color: #E5E5E5;
-    border: 2px solid #fffffc;
-    color: white;
+    border: 1px solid #466870;
+    color: #466870;
     height:30vh;
     border-radius:5px;
     width:25%;
 }
 .container-4 p{
     font-size:14px;
-    color: #060202;
+    color: #466870;
     margin:10px;
 }
 .content-box3 span{
@@ -267,6 +269,35 @@ h1,h2,h3,h4,h5,h6{
     margin:30px;
     margin-left:50px;
 }
+.container-5 .content-box3{
+    height:20vh;
+}
+.container-6{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-6 .content-box2{
+    padding: 50px;
+    padding-top:90px;
+    border:none;
+    border-radius: 0%;
+    height:90vh;
+}
+.container-6 input{
+    height:7vh;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 20px;
+}
+.container-6 button{
+    width:80%;
+    margin-top: 20px;
+
+}
+
+
 @media  screen and (max-width:1024px){
     .home{
         background:linear-gradient(180deg, #1D7F96 0%, rgba(99, 180, 199, 0.79875) 47.92%, rgba(29, 127, 150, 0.58) 100%), #CAF0F8;
