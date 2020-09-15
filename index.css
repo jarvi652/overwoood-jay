@@ -5,11 +5,21 @@
     font-family: 'Raleway', sans-serif;
 }
 main{
-    background:linear-gradient(90.05deg, #1D7F96 0.63%, rgba(29, 127, 150, 0.58) 52.78%, rgba(33, 130, 153, 0.54) 95.67%), #1D7F96; 
+    background: linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #CAF0F8;
+
+}
+.home{
+    background:linear-gradient(90.05deg, #1D7F96 0.63%, rgba(29, 127, 150, 0.58) 52.78%, rgba(33, 130, 153, 0.54) 95.67%), #1D7F96;  
+    height:100vh;
     
-    background-size: cover;
 }
 section{
+    background: linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #CAF0F8;
+    height:100vh;
+
+    
+}
+.three{
     background: linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #CAF0F8;
     background-size: cover;
 }
@@ -105,21 +115,21 @@ h1,h2,h3,h4,h5,h6{
 .container-c{
     display:flex;
     flex-direction: row;
-    align-items: center;
+    height:85vh;
     color:#fffffc;
+    margin:90px;
+    align-items: center;
     justify-content: center;
-    align-content: center;
-    
-    padding:70px;
     
     
-    
+   
 }
 .content-box1{
     background-color: #023E8A;
     border: 2px solid #fffffc;
-    height:50vh;
-    flex:50%;
+    height:50.5vh;
+    flex:1;
+    
     
 
 }
@@ -129,15 +139,7 @@ img{
     border-left: 2px solid #fffffc;
     border-bottom:2px solid #fffffc;
     flex:50%;
-}
-
-.words{
-   text-align: left;
-   margin: auto;
-   margin-left: 20px;
-   
     
-
 }
 .head{
     font-size:36px;
@@ -147,19 +149,57 @@ img{
     font-size:13px;
     
 }
-.two{
-    font-size: 2px;
+.small{
+    font-size: 12px;
     color: #466870;
     
 }
+.words{
 
+    flex:50%;
+}
+.container-3 h3{
+    font-size:18px; 
+    color:#fffffc; 
+}
+.container-3 h5{
+    margin-left:90px;
+}
+.container-3 p{
+    font-size:16px;
+    color:#fffffc;
+    font-weight: 600px;
+
+
+}
 .container-d{
     display:flex;
     flex-direction: row;
+    justify-content:space-around;
+    
+    
     
 }
+.container-e{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+      
+}
+.content-box2{
+    background-color: #023E8A;
+    border: 2px solid #fffffc;
+    color: white;
+    height:30vh;
+    margin-top:70px;
+    border-radius:5px;
+    width:20%;
+    text-align:center;
+ 
+}
 @media  screen and (max-width:1024px){
-    main{
+    .home{
         background:linear-gradient(180deg, #1D7F96 0%, rgba(99, 180, 199, 0.79875) 47.92%, rgba(29, 127, 150, 0.58) 100%), #CAF0F8;
        
     }
