@@ -133,6 +133,7 @@ h1,h2,h3,h4,h5,h6{
     border: 2px solid #fffffc;
     height:50.5vh;
     flex:1;
+    justify-content: space-around;
     
     
 
@@ -156,7 +157,7 @@ h1,h2,h3,h4,h5,h6{
 .small{
     font-size: 12px;
     color: #466870;
-    margin-left:90px;
+    margin-left:50px;
     
 }
 .words{
@@ -169,7 +170,7 @@ h1,h2,h3,h4,h5,h6{
     margin-left:10px;
 }
 .container-3 h1{
-    margin-left:90px;
+    margin-left:50px;
     font-size: 36px;
     color:#fffffc;
 }
@@ -207,9 +208,64 @@ h1,h2,h3,h4,h5,h6{
     color: white;
     height:30vh;
     border-radius:5px;
-    width:20%;
+    width:25%;
     
  
+}
+.content-box3{
+    background-color: #E5E5E5;
+    border: 2px solid #fffffc;
+    color: white;
+    height:30vh;
+    border-radius:5px;
+    width:25%;
+}
+.container-4 p{
+    font-size:14px;
+    color: #060202;
+    margin:10px;
+}
+.content-box3 span{
+    font-size:14px;
+}
+.container-4{
+    display:flex;
+    flex-direction:column;
+    
+}
+.container-4 h3{
+    color: #1D7F96;
+    margin:10px;
+}
+.container-4 h4{
+    color:#E5E5E5;
+    margin:30px;
+    margin-left:50px;
+    
+}
+.container-4 h1{
+    margin-left:50px;
+    font-size: 36px;
+    color:#fffffc;
+}
+.container-5 h1{
+    margin:30px;
+    margin-left:50px;
+    font-size: 36px;
+    color:#fffffc;
+}
+.container-5 h3{
+    color: #1D7F96;
+    margin:10px;
+}
+.container-5 p{
+    font-size:14px;
+    color: #060202;
+    margin:10px;
+}
+.container-5 h4{
+    margin:30px;
+    margin-left:50px;
 }
 @media  screen and (max-width:1024px){
     .home{
