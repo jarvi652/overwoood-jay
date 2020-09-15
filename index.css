@@ -24,6 +24,9 @@ section{
     background: linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #CAF0F8;
     background-size: cover;
 }
+.four{
+    background:linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #C48CAE;
+}
 nav{
     margin:20px;
     padding:15px;
