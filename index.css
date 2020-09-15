@@ -6,6 +6,7 @@
 }
 main{
     background: linear-gradient(90.2deg, rgba(29, 127, 150, 0.58) 2.24%, rgba(63, 124, 136, 0.78) 17.82%, #466870 99.83%), #CAF0F8;
+    flex-flow: column;
 
 }
 .home{
@@ -133,7 +134,7 @@ h1,h2,h3,h4,h5,h6{
     
 
 }
-img{
+.container-c img{
     height:50vh;
     border-top: 2px solid #fffffc;
     border-left: 2px solid #fffffc;
@@ -152,6 +153,7 @@ img{
 .small{
     font-size: 12px;
     color: #466870;
+    margin-left:90px;
     
 }
 .words{
@@ -161,17 +163,26 @@ img{
 .container-3 h3{
     font-size:18px; 
     color:#fffffc; 
+    margin-left:10px;
 }
-.container-3 h5{
+.container-3 h1{
     margin-left:90px;
+    font-size: 36px;
+    color:#fffffc;
 }
 .container-3 p{
-    font-size:16px;
+    font-size:12px;
     color:#fffffc;
+    margin-top: 20px ;
+    margin-left:10px;
     font-weight: 600px;
-
-
 }
+.container-3 img{
+    border:none;
+    height:10vh;
+}
+
+
 .container-d{
     display:flex;
     flex-direction: row;
@@ -184,7 +195,7 @@ img{
     display:flex;
     flex-direction: row;
     justify-content:space-around;
-    
+    margin-top:60px;
       
 }
 .content-box2{
@@ -192,10 +203,9 @@ img{
     border: 2px solid #fffffc;
     color: white;
     height:30vh;
-    margin-top:70px;
     border-radius:5px;
     width:20%;
-    text-align:center;
+    
  
 }
 @media  screen and (max-width:1024px){
