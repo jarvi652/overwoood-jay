@@ -142,7 +142,7 @@ h1,h2,h3,h4,h5,h6{
 .container-c img{
     height:60vh;
     border:none;
-    flex:20%;
+    flex:10%;
     
 }
 .head{
@@ -437,10 +437,8 @@ h1,h2,h3,h4,h5,h6{
     }
     
     .container-c img{
-        margin:20px;
-        padding:15px;
-        border:none;
-        flex:20%;    
+        height:40vh;
+            
     }
     .head{
         font-size:36px;
@@ -458,10 +456,7 @@ h1,h2,h3,h4,h5,h6{
         margin-left:50px;
         
     }
-    .words{
-        word-spacing: 1rem;
-        
-    }
+
     .container-3 h3{
         font-size:14px; 
         color:#fffffc; 
