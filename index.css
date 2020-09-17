@@ -119,27 +119,29 @@ h1,h2,h3,h4,h5,h6{
 .container-c{
     display:flex;
     flex-direction: row;
-    height:85vh;
     color:#fffffc;
     margin:90px;
     align-items: center;
     justify-content: center;
-    flex:50%;
-    
-    
+    border-spacing: 0em;
    
 }
 .content-box1{
     background-color: #0355BC;
     border: none;
+    font-size: 14px;
     padding-left: 10px;
-    justify-content: space-around;
-    
-    
+    width:50%;
 
 }
-
-.container-c img{
+.content-boxc img{ 
+    height:60vh;
+    width:50%;
+   
+    
+    
+}
+.container-c1 img{
     height:60vh;
     border:none;
     flex:10%;
@@ -312,24 +314,24 @@ h1,h2,h3,h4,h5,h6{
 }
 @media  screen and (max-width:480px){
     main{
-        background:#CAF0F8;
+        background:#9DE3F2;;
     
     }
     .home{
         background:#9DE3F2;  
-        height:100vh;
+        
         
         
     }
     section{
-        background:#CAF0F8;
+        background:#9DE3F2;;
     
         
     }
 
     .three{
         background: #9DE3F2;
-        background-size: cover;
+        
     }
     .four{
         background: #9DE3F2;
@@ -389,7 +391,7 @@ h1,h2,h3,h4,h5,h6{
         
     }
     .thing{
-        margin:50px;
+        font-size: 1px;
         color:#9DE3F2;
     }
     .two{
@@ -401,19 +403,15 @@ h1,h2,h3,h4,h5,h6{
         color:#fffffc;
         background:#0355BC;
         width:50%;
-        margin-top:5px;
-        font-size:12px
+        margin-bottom:50px;
+        font-size:12px;
     }
     .container-b{
         display: flex;
         flex-direction: column;
         text-align: left;
         justify-content: space-between;
-        color:#fffffc;
-        padding-top: 10px;
-        margin:20px;
-        padding:15px;
-        
+        color:#fffffc;   
     }
     .content-box{
         background-color:#0355BC;
@@ -425,10 +423,11 @@ h1,h2,h3,h4,h5,h6{
     #p{
         font-size: 12px;
     }
-    .container-c{
+    .container-c1{
           display:flex;
           flex-direction: column;
-          background:#9DE3F2;
+          
+          
        
     }
     .content-box1{
@@ -436,10 +435,6 @@ h1,h2,h3,h4,h5,h6{
         border: none;
     }
     
-    .container-c img{
-        height:40vh;
-            
-    }
     .head{
         font-size:36px;
         
