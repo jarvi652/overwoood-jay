@@ -285,7 +285,7 @@ h1,h2,h3,h4,h5,h6{
     
 }
 .container-5 .content-box2{
-    height:28vh;
+    height:30vh;
     
 }
 .container-6{
@@ -455,7 +455,7 @@ h1,h2,h3,h4,h5,h6{
         border-radius:5px;
     }
     
-    .content-boxc img{ 
+    .content-boxc { 
         height:35vh;
         width:125%;
         float:left;
