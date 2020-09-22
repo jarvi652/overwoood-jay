@@ -131,7 +131,7 @@ h1,h2,h3,h4,h5,h6{
     width:80%;
 }
 
-.content-boxc img{ 
+.content-boxc { 
     height:45vh;
     width:40%; 
    justify-items: center; 
@@ -285,7 +285,7 @@ h1,h2,h3,h4,h5,h6{
     
 }
 .container-5 .content-box2{
-    height:20vh;
+    height:28vh;
     
 }
 .container-6{
